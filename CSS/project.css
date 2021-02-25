@@ -1,0 +1,240 @@
+/* Q1: Display all semantic elements as block elements */
+
+header {
+    display: block;
+}
+
+nav {
+    display: block;
+}
+
+section {
+    display: block;
+}
+
+footer {
+    display: block;
+}
+
+/* Q2: Body needs to be styled. Text color of choice, select one of 7 background images provided as part of this assignment, 
+font family is at least 3 options of any sans-serif fonts and margin must be 0 for top,bottom,left&right. */
+
+body {
+    color:rgb(255,245,238);
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-image: url(../Assets/Images/dark-wood1.jpg)
+}
+
+/* Q3: Style <div> element with class "container"*/
+
+div.container {
+    width: 950px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(136, 105, 58);
+}
+
+/* Q4: Style element with class value of "content" */
+
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+/* Q5: Style header, nav and footer */
+
+header, nav, footer {
+    background-color: rgba(47, 93, 119, 0.678);
+    color:rgb(224, 222, 238);
+}
+
+/* Q6: Style any and every <ul> element which is inside any and every <nav> element. Any children of <nav> whose name just
+so happens to be <ul>*/
+
+nav > ul {
+    margin: 0;
+    padding: 5px;
+}
+
+/* Q7: Style the <li> list elements of the main navigation <nav> */
+
+nav li {
+display: inline;
+margin-right: 40px;
+text-transform: uppercase;
+}
+
+/* Q8: Add all 4 pseudo classes to the Anchor tags of main navigation list items. Color should change */
+
+  a:link {
+    color: rgb(0,0,255);
+  }
+  
+  a:visited {
+    color: rgb(0,0,0);
+  }
+  
+  a:hover {
+    color: rgb(128.128.128);
+  }
+  
+  a:active {
+    color: rgb(128,0,128);
+  }
+
+  /* Q9: Style anchor <a> element with any color and no underline */
+
+  a {
+      color:rgb(70, 61, 121);
+      text-decoration: none;
+  }
+
+  /* Q10: Style H1, H2 and H3 */
+
+  h1, h2, h3 {
+      margin: 10px;
+      text-transform: uppercase;
+      color: rgb(201, 143, 36)
+  }
+
+  /* Q11: Style class named "img-centre" */
+
+  .img-centre {
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 2px;
+  }
+
+  /* Q12: Style audio and video elements */
+
+  audio, video {
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  /* Q13: Style any table element  */
+
+  table {
+      width: 800px;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-collapse: collapse;
+  }
+
+  /* Q14: Style td and th element of any table  */
+
+  table > th table > td { 
+      border: 1px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      padding-right: 5px;
+      padding-left: 5px;
+      background-color: rgb(188,143,143)
+  }
+
+    /* Q15: Style th inside any table and td inside tfoot  */
+
+    table th, tfoot td {
+        text-transform: uppercase;
+        background-color: rgb(128,128,0)
+    }
+
+    table th, tfoot td {
+        color: rgb(205,133,63);
+    }
+
+    /* Q16: Style <dt> element. Make it BOLD */
+
+    dt {
+        font-weight: bold;
+    }
+
+    /* Q17: Style any footer element  */
+
+    footer {
+        font-size: 80%;
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* Q18: Style any iframe element  */
+
+    iframe {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+        margin: auto;
+    }
+
+    /* Q19: Style any fieldset element  */
+
+    fieldset {
+        width: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin: auto;
+        border-style: dashed;
+        background-color: rgb(97, 86, 128);
+    }
+
+    /* Q20: Style any legend element  */
+
+    legend {
+        font-style: italic;
+        color: rgb(59, 52, 160)
+    }
+
+    legend {
+        background-color: rgb(205,133,63);
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-radius: 20px;
+    }
+
+
+    /* Q21: Style the <input> element that has an attribute named “type” with value of “submit” */
+
+    input[type=submit] {
+        border-style: double;
+        padding: 5px;
+        background-color:rgb(245,245,245);
+        color: rgb(102,51,153);
+    }
+
+    /* Q22: Style the same <input> element that has an attribute named “type” with value of “submit” but with 
+     the pseudo class for the hover state (when you hover the mouse over the element)  */
+
+     input[type=submit] a:link {
+            color: rgb(0,0,255);
+          }
+          
+          input[type=submit] a:visited {
+            color: rgb(0,0,0);
+          }
+          
+          input[type=submit] a:hover {
+            color: rgb(128.128.128);
+          }
+          
+          input[type=submit] a:active {
+            color: rgb(128,0,128);
+          }
+     
